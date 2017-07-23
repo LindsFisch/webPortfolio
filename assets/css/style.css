@@ -1,6 +1,11 @@
 body {
     background-image: url("../images/background.jpg");
     background-size: contain;
-    background-position: fixed;
+    background-position: 25% 40%;
+}
+
+.mainContain {
+    background:rgba(255,255,255, 0.8);
+
 }
 
