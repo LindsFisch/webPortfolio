@@ -8,7 +8,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"
         media="screen,projection" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -19,6 +19,7 @@
 
 <body>
     <header>
+
         <nav class="transparent z-depth-0">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Logo</a>
@@ -35,11 +36,47 @@
                 </ul>
             </div>
     </header>
-    <main></main>
+    <main>
+        <section class="container mainContain">
+            <div class="row">
+                <div class="col m2"></div>
+                <div class="col m8 s12">
+                    <h1 class="center-align">Contact</h1>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <h5 class="center-align">Interested in working together? Get in touch!</h5>
+                        <div class="container center-align">
+                            <a class="waves-effect waves-light btn center-align" id="emailme"><i class="material-icons right">mail_outline</i>Email me</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        
+                        <h5 class="center-align">Connect with me on these other sites</h5>
+                    </div>
+
+                    <div class="row center-align">
+                        <div class="col m4 s12 center-align">
+                            <a href="https://www.linkedin.com/in/lindsfisch/"><img src="assets/images/linkedin-box.png"></a>
+                        </div>
+                        <div class="col m4 s12 center-align">
+                            <a href="https://github.com/LindsFisch"><img src="assets/images/github-box.png"></a>
+                        </div>
+                        <div class="col m4 s12 center-align">
+                            <a href="https://stackoverflow.com/users/7572358/lindsfisch?tab=profile"><img src="assets/images/stackoverflow.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col m2"></div>
+            </div>
+        </section>
+
+    </main>
     <footer></footer>
     <script type="text/javascript">
         $(document).ready(function () {
+            $(".dropdown-button").dropdown();
             $(".button-collapse").sideNav();
+            
         })
     </script>
 </body>
