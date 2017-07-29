@@ -1,7 +1,8 @@
 body {
     background-image: url("../images/background.jpg");
-    background-size: contain;
-    background-position: 25% 40% fixed;
+    /* background-size: contain; */
+    background-position: left bottom;
+    background-attachment: fixed
 }
 
 .mainContain {
@@ -10,4 +11,9 @@ body {
 
 #dogphoto {
     width: 60%
+}
+
+.abouttxt {
+    font-size: 16px;
+    font-weight: bold
 }
